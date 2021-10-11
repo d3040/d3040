@@ -8,7 +8,7 @@ As a LOTR fan would say:
 
 > "It's a dangerous business, Frodo, going out of your door. You step into the road, and if you don't keep your feet, there is no knowing where you might be swept off to."
 
-As a whole, in this file, I will write about my experiences for making this site what it is. The aim for this is that _you_, the reader, will understand a little bit more about the way I am building my so-expected-site and maybe join me in this quest into the yet-to-know future.
+As a whole, in this file, I will write about my experiences while making this site what it is. The aim for this is that _you_, the reader, will understand a little bit more about the way I am building my so-expected-site and maybe join me in this quest into the yet-to-know future.
 
 ## Content
 
