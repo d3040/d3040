@@ -12,7 +12,7 @@ As a whole, in this file, I will list the *WIP*, *WTB* and completed activities 
 
 ## Content
 
-### GitHub pages:
+#### Setting my custom domain for my GitHub Pages:
 
 A professor at my university used to say: *"ignorance is very expensive"*, and there are many ways in which something can cost you more than expected. In my case, when I finally decided to create my website, one of the first things I did was looking for a host provider. I purchased a basic plan and I payed 3 years and never deploy my site. A word to the wise; there are several platforms that give you space to host your website free-of-charge. Of course it all depends on what are you looking for but if you want to create your own personal website, I think the most reasonable thing to do is use one of this platforms such as GitHub pages.
 
