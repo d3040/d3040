@@ -23,9 +23,12 @@ As a newbie, this could be frustrating because you expect to see changes right a
 ### 2. The content:
 
 With every website comes great information so, what's this precious stuff I want to share with the entire world?
-    - CV
-    - Research
-    - Projects portfolio
-    - Lab (got the idea from Jen Simmons and her [lab](https://labs.jensimmons.com))
+
+- CV
+- Research
+- Projects portfolio
+- Lab (got the idea from Jen Simmons and her [lab](https://labs.jensimmons.com))
+
+
 
 [^1]: Lord of The Rings.
