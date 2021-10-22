@@ -27,7 +27,7 @@ With every website comes great information so, what's this precious stuff I want
 - CV
 - Research
 - Projects portfolio
-- Lab (got the idea from Jen Simmons and her [lab](https://labs.jensimmons.com))
+- Lab (got the idea from Jen Simmons's [lab](https://labs.jensimmons.com))
 
 
 
