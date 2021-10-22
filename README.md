@@ -30,5 +30,11 @@ With every website comes great information so, what's this precious stuff I want
 - Lab (got the idea from Jen Simmons's [lab](https://labs.jensimmons.com))
 
 
+### Learning happy-path (:trollface:)
+
+| Topic |          Description          | Date | STm | ETm | hrs |
+|:-----:|-------------------------------|:----:|:---:|:---:|:---:|
+|Test   |Making db path                 |211021|22:00|23:00|1    |
+
 
 [^1]: Lord of The Rings.
