@@ -30,7 +30,7 @@ With every website comes great information so, what's this precious stuff I want
 - Lab (got the idea from Jen Simmons's [lab](https://labs.jensimmons.com))
 
 
-### Learning happy-path (:wave:)
+### A. Learning registry :beaver::
 
 | Topic |          Description          | Date | STm | ETm | hrs |
 |:-----:|-------------------------------|:----:|:---:|:---:|:---:|
