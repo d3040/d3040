@@ -30,7 +30,7 @@ With every website comes great information so, what's this precious stuff I want
 - Lab (got the idea from Jen Simmons's [lab](https://labs.jensimmons.com))
 
 
-### Learning happy-path (:trollface:)
+### Learning happy-path (:wave:)
 
 | Topic |          Description          | Date | STm | ETm | hrs |
 |:-----:|-------------------------------|:----:|:---:|:---:|:---:|
