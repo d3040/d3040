@@ -24,11 +24,10 @@ As a newbie, this could be frustrating because you expect to see changes right a
 
 With every website comes great information so, what's this precious stuff I want to share with the entire world?
 
-- CV
-- Research
-- Projects portfolio
-- Lab (got the idea from Jen Simmons's [lab](https://labs.jensimmons.com))
-
+- CV (a.k.a about)
+- Research (a.k.a Studies & Notes)
+- Portfolio (a.k.a Lab (got the idea from Jen Simmons's [lab](https://labs.jensimmons.com))
+- Personal project (a.k.a Brinken)
 
 ### :beaver: Learning hut:
 
