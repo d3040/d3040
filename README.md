@@ -26,7 +26,7 @@ With every website comes great information so, what's this precious stuff I want
 
 - CV (a.k.a about)
 - Research (a.k.a Studies & Notes)
-- Portfolio (a.k.a Lab (got the idea from Jen Simmons's [lab](https://labs.jensimmons.com))
+- Portfolio (a.k.a Lab[^2])
 - Personal project (a.k.a Brinken)
 
 ### :beaver: Learning hut:
@@ -37,3 +37,4 @@ With every website comes great information so, what's this precious stuff I want
 
 
 [^1]: Lord of The Rings.
+[^2]: got the idea from Jen Simmons's [lab](https://labs.jensimmons.com)
