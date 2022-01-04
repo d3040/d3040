@@ -29,7 +29,7 @@ With every website comes great information so, what's this precious stuff I want
 - Portfolio (a.k.a Lab[^2])
 - Personal project (a.k.a Brinken)
 
-Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] And writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningfull code or to help visually impaired users navigate a page through scren readers. 
+Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] Writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningfull code or to help visually impaired users navigate a page through scren readers. 
 
 ### :beaver: Learning hut:
 
