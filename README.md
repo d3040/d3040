@@ -29,12 +29,16 @@ With every website comes great information so, what's this precious stuff I want
 - Portfolio (a.k.a Lab[^2])
 - Personal project (a.k.a Brinken)
 
+Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] And writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningfull code or to help visually impaired users navigate a page through scren readers. 
+
 ### :beaver: Learning hut:
 
 | Topic |          Description          | Date |  t  | t+h | h |
 |:-----:|-------------------------------|:----:|:---:|:---:|:-:|
 |Test   |Making db path                 |211021|22:00|23:00|1  |
+|Content|Adding content to website 		|220103|22:30|23:31|1  |	
 
 
 [^1]: Lord of The Rings.
-[^2]: got the idea from Jen Simmons's [lab](https://labs.jensimmons.com)
+[^2]: got the idea from [Jen Simmons's lab](https://labs.jensimmons.com)
+[^3]: [Semantics in HTML -MDN Web Docs](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
