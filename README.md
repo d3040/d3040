@@ -37,7 +37,7 @@ Content implies meaning and _HTML should be coded to represent the data that wil
 |:-----:|-------------------------------|:----:|:---:|:---:|:-:|
 |Test   |Making db path                 |211021|22:00|23:00|1  |
 |Content|Adding content to website 		|220103|22:30|23:31|1  |
-|Content|Adding content to website 		|220104|20:20|	
+|Content|Adding content to website 		|220104|20:20|21:49|1.3|	
 
 
 [^1]: Lord of The Rings.
