@@ -54,11 +54,9 @@ Content implies meaning and _HTML should be coded to represent the data that wil
        <!-- updates & news -->
         <header>
             <section class="headers active">
-                <h1>New's header</h1>
-                <h2>Subtitle</h2>
-                <p>
-                	Brief update description
-                </p>
+                <h1>new's header</h1>
+                <h2>subtitle</h2>
+                <p>brief update description</p>
             </section>
         </header>
         <!-- about -->
@@ -67,19 +65,19 @@ Content implies meaning and _HTML should be coded to represent the data that wil
                 <ul>
                     <li>
                         <h3>activity 4, <span class="date">date4</span></h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                     <li>
                         <h3>activity 3, <span class="date">date3</span></h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                     <li>
                         <h3>activity 2, <span class="date">date2</span></h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                     <li>
                         <h3>activity 1, <span class="date">date1</span></h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                 </ul>
             </section>
@@ -98,27 +96,27 @@ Content implies meaning and _HTML should be coded to represent the data that wil
                 </ul>
             </section>
             <section id="principles">
-                <h2>My 5 principles</h2>
+                <h2>my principles</h2>
                 <ol>
                     <li>
                         <h3>principle1</h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                     <li>
                         <h3>principle2</h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                     <li>
                         <h3>principle3</h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                     <li>
                         <h3>principle4</h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                     <li>
                         <h3>principle5</h3>
-                        <p>Description</p>
+                        <p>description</p>
                     </li>
                 </ol>
             </section>
