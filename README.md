@@ -29,7 +29,117 @@ With every website comes great information so, what's this precious stuff I want
 - Portfolio (a.k.a Lab[^2])
 - Personal project (a.k.a Brinken)
 
-Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] Writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningfull code or to help visually impaired users navigate a page through screen readers. 
+Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] Writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningfull code or to help visually impaired users navigate a page through screen readers.
+
+#### 2.1 Home Page X-rays:
+
+```html
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>tab's title</title>
+    </head>
+    <body>
+        <!-- navigation bar -->
+        <nav>
+            <ul>
+                <li>logo</li>
+                <li>home</li>
+                <li>2nd page</li>
+                <li>3rd page</li>
+                <li>...</li>
+            </ul>
+        </nav>
+       <!-- updates & news -->
+        <header>
+            <section class="headers active">
+                <h1>New's header</h1>
+                <h2>Subtitle</h2>
+                <p>
+                	Brief update description
+                </p>
+            </section>
+        </header>
+        <!-- about -->
+        <main>
+            <section id="learning-path">
+                <ul>
+                    <li>
+                        <h3>activity 4, <span class="date">date4</span></h3>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>activity 3, <span class="date">date3</span></h3>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>activity 2, <span class="date">date2</span></h3>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>activity 1, <span class="date">date1</span></h3>
+                        <p>Description</p>
+                    </li>
+                </ul>
+            </section>
+            <section id="interests">
+                <ul>
+                    <li>interest1</li>
+                    <li>interest2</li>
+                    <li>interest3</li>
+                    <li>interest4</li>
+                    <li>interest5</li>
+                    <li>interest6</li>
+                    <li>interest7</li>
+                    <li>interest8</li>
+                    <li>interest9</li>
+                    <li>interest10</li>
+                </ul>
+            </section>
+            <section id="principles">
+                <h2>My 5 principles</h2>
+                <ol>
+                    <li>
+                        <h3>principle1</h3>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>principle2</h3>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>principle3</h3>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>principle4</h3>
+                        <p>Description</p>
+                    </li>
+                    <li>
+                        <h3>principle5</h3>
+                        <p>Description</p>
+                    </li>
+                </ol>
+            </section>
+            <section id="contact">
+                <ul>
+                    <li id="social-media">
+                        <button id="twitter">twitter</button>
+                        <a href="#">github</a>
+                    </li>
+                    <li id="photo"><img src="#" alt="my-picture"></li>
+                    <li id="email">email@domain.com</li>
+                </ul>
+            </section>
+        </main>
+        <!-- site map -->
+        <footer>
+            site map
+        </footer>
+  </body>
+</html>
+```
 
 ### :beaver: Learning hut:
 
