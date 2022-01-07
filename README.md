@@ -123,8 +123,9 @@ Content implies meaning and _HTML should be coded to represent the data that wil
             <section id="contact">
                 <ul>
                     <li id="social-media">
-                        <button id="twitter">twitter</button>
-                        <a href="#">github</a>
+                        <ul>
+                            <li><span class="icon" id="twitter"></span><button>twitter</button></li>
+                            <li><span class="icon" id="github"></span>Github,<a href="#">link to proyect.</a></li>
                     </li>
                     <li id="photo"><img src="#" alt="my-picture"></li>
                     <li id="email">email@domain.com</li>
