@@ -124,8 +124,14 @@ Content implies meaning and _HTML should be coded to represent the data that wil
                 <ul>
                     <li id="social-media">
                         <ul>
-                            <li><span class="icon" id="twitter"></span><button>twitter</button></li>
-                            <li><span class="icon" id="github"></span>Github,<a href="#">link to proyect.</a></li>
+                            <li>
+                                <span class="icon" id="twitter"></span>
+                                <button>twitter</button>
+                            </li>
+                            <li>
+                                <span class="icon" id="github"></span>
+                                Github,<a href="#">link to proyect.</a>
+                            </li>
                     </li>
                     <li id="photo"><img src="#" alt="my-picture"></li>
                     <li id="email">email@domain.com</li>
@@ -146,7 +152,8 @@ Content implies meaning and _HTML should be coded to represent the data that wil
 |:-----:|-------------------------------|:----:|:---:|:---:|:-:|
 |Test   |Making db path                 |211021|22:00|23:00|1  |
 |Content|Adding content to website 		|220103|22:30|23:31|1  |
-|Content|Adding content to website 		|220104|20:20|21:49|1.5|	
+|Content|Adding content to website 		|220104|20:20|21:49|1.5|
+|Content|Addinf content to website      |220106|22:30|23:00|0.5|	
 
 
 [^1]: Lord of The Rings.
