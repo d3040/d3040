@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Zilla Slab Bold";
+  src: url("../fonts/zilla-slab/ZillaSlab-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Zilla Slab Highlight Bold";
+  src: url("../fonts/zilla-slab/ZillaSlabHighlight-Bold.otf") format("opentype");
+}
+
+body {
+  background: #008acd no-repeat center url("../img/awesome-back.jpg");
+  color: #e5f3fa;
+  font-family: "Zilla Slab Bold";
+  margin: 0;
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+
+p {
+  font-size: 8rem;
+  font-family: "Zilla Slab Highlight Bold";
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: .5rem;
+}
+
+footer a {
+  color: inherit;
+}
