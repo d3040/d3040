@@ -9,7 +9,9 @@
 }
 
 body {
-  background: no-repeat center url("https://d3040.com/img/awesome-back.jpg");
+  background-color: #008acd;
+  background-image: url("https://d3040.com/img/awesome-back.jpg");
+  background-size: cover;
   color: #e5f3fa;
   font-family: "Zilla Slab Bold";
   margin: 0;
