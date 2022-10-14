@@ -1,4 +1,4 @@
-var deadline = new Date("12/16/22 09:00").getTime();
+var deadline = new Date("12/16/22 07:30").getTime();
 
 setInterval(function() {
   var match = 0;
