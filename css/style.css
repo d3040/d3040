@@ -45,3 +45,16 @@ footer {
 footer a {
   color: inherit;
 }
+
+.d3040 {
+  /* Color stop: A gradient going from the bottom to top,
+   starting blue, turning green at 40% of its length,
+   and finishing red */
+  background: linear-gradient(
+    to left,
+    #008ACD 20%,
+    #CD4400 20% 40%,
+    #00CDAB 40% 60%,
+    #CD0089 60% 80%,
+    #4400CD 80%);
+}
