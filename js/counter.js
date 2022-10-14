@@ -19,7 +19,7 @@ setInterval(function() {
       match = match + 1;
   };
 
-  document.getElementsByTagName("p")[0].innerHTML = days + "d " + hours + ":" + minutes + ":" + seconds;
+  document.getElementsByTagName("p")[0].innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + 's';
 
   // verify 3040
   if (match == 2) {
