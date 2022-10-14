@@ -26,7 +26,11 @@ What about the content! Well, everything I want to share will be here. This will
 
 On the other hand, I want to document the process of creating and maintaining a website, including tips and ideas around it (hence this readme file). For example:
 
-  Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] Writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningful code or to help visually impaired users navigate a page through screen readers.
+> Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] Writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningful code or to help visually impaired users navigate a page through screen readers.
+
+Let the countdown starts!
+
+![count down having 30 min and 40 secs showing 5 colored stripes as background](https://github.com/d3040/website/blob/main/img/easterEgg_d3040.png "Easter egg d3040")
 
 ### :beaver: Learning hut:
 

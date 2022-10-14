@@ -24,8 +24,10 @@ setInterval(function() {
   // verify 3040
   if (match == 2) {
       document.getElementsByTagName("body")[0].className = "d3040";
+      document.getElementsByTagName("footer")[0].className = "hide";
   } else {
       document.getElementsByTagName("body")[0].className = "";
+      document.getElementsByTagName("footer")[0].className = "";
   };
 
 }, 1000);

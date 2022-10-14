@@ -58,3 +58,7 @@ footer a {
     #CD0089 60% 80%,
     #4400CD 80%);
 }
+
+.hide {
+  display: none;
+}
