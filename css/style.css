@@ -33,6 +33,7 @@ h1 {
 p {
   font-size: 8rem;
   font-family: "Zilla Slab Highlight Bold";
+  text-align:center;
 }
 
 footer {
@@ -66,6 +67,5 @@ footer a {
 @media screen and (max-width: 750px) {
   p {
     font-size:5rem;
-    text-align:center;
   }
 }
