@@ -24,7 +24,7 @@ As a newbie, this could be frustrating because you expect to see changes right a
 
 What about the content! Well, everything I want to share will be here. This will be my hut, so I think it will be some place where I can explore creativity and share my world's point of view.
 
-On the other hand, I want to document the process of creating and maintaining a website, including tips and ideas around it (hence this readme file). For example:
+On the other hand, I want to document the process of creating and maintaining a website, including tips and ideas around it (hence this readme file).
 
 > Content implies meaning and _HTML should be coded to represent the data that will be populated and not based on its default presentation styling._[^3] Writing semantic markup has its benefits, not just to increase the SEO's page ranking but to identify much easier blocks of meaningful code or to help visually impaired users navigate a page through screen readers.
 
