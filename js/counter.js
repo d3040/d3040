@@ -1,4 +1,6 @@
-var deadline = new Date("2023-01-15 00:00").getTime();
+var deadline = new Date("2023-01-28 00:00").getTime();
+var colors = new Array("azul","rosa","verde", "naranja","azul2");
+i = 0;
 
 setInterval(function() {
   var match = 0;
@@ -23,11 +25,11 @@ setInterval(function() {
 
   // verify 3040
   if (match == 2) {
-      document.getElementsByTagName("body")[0].className = "d3040";
-      document.getElementsByTagName("footer")[0].className = "hide";
-  } else {
-      document.getElementsByTagName("body")[0].className = "";
-      document.getElementsByTagName("footer")[0].className = "";
+      document.getElementsByTagName("p")[0].className = colors[i];
+      i = i + 1;
+      if (i == colors.length) {
+        i = 0;
+      }
   };
 
 }, 1000);

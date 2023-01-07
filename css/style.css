@@ -10,9 +10,19 @@
 
 body {
   margin: 0;
-  background-color: #008acd;
+  /* Color stop: A gradient going from the bottom to top,
+   starting blue, turning green at 40% of its length,
+   and finishing red */
+  background: linear-gradient(
+    to left,
+    #008ACD 20%,
+    #CD4400 20% 40%,
+    #00CDAB 40% 60%,
+    #CD0089 60% 80%,
+    #4400CD 80%);
+  /*background-color: #008acd;
   background-image: url("https://d3040.com/img/awesome-back.jpg");
-  background-size: cover;
+  background-size: cover;*/
   color: #e5f3fa;
   font-family: "Zilla Slab Bold";
 }
@@ -30,6 +40,26 @@ h1 {
   margin: 0;
 }
 
+.azul2 {
+  background: #008ACD;
+}
+
+.naranja {
+  background: #CD4400;
+}
+
+.verde {
+  background: #00CDAB;
+}
+
+.rosa {
+  background: #CD0089;
+}
+
+.azul {
+  background: #4400CD;
+}
+
 p {
   font-size: 8rem;
   font-family: "Zilla Slab Highlight Bold";
@@ -45,23 +75,6 @@ footer {
 
 footer a {
   color: inherit;
-}
-
-.d3040 {
-  /* Color stop: A gradient going from the bottom to top,
-   starting blue, turning green at 40% of its length,
-   and finishing red */
-  background: linear-gradient(
-    to left,
-    #008ACD 20%,
-    #CD4400 20% 40%,
-    #00CDAB 40% 60%,
-    #CD0089 60% 80%,
-    #4400CD 80%);
-}
-
-.hide {
-  display: none;
 }
 
 @media screen and (max-width: 750px) {
