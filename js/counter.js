@@ -24,12 +24,10 @@ setInterval(function() {
   document.getElementsByTagName("p")[0].innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + 's';
 
   // verify 3040, if true change background color from count
-  if (match == 2) {
-      document.getElementsByTagName("p")[0].className = colors[i];
-      i = i + 1;
-      if (i == colors.length) {
-        i = 0;
-      }
+  document.getElementsByTagName("p")[0].className = colors[i];
+  i = i + 1;
+  if (i == colors.length) {
+    i = 0;
   };
 
 }, 1000);
