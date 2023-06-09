@@ -1,4 +1,4 @@
-var deadline = new Date("2023-06-08 12:00").getTime();
+var deadline = new Date("2023-06-16 12:00").getTime();
 var colors = new Array("azul","rosa","verde", "naranja","azul2");
 i = 0;
 
