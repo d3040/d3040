@@ -1,30 +1,373 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  ┏┓                    
+  ┃┃┏━━━┓┏━━━┓┏┓ ┏┓┏━━━┓ 
+┏━┛┃┃┏━┓┃┃┏━┓┃┃┃ ┃┃┃┏━┓┃ Daniel Clavijo
+┃┏┓┃┗┛┏┛┃┃┃ ┃┃┃┗━┛┃┃┃ ┃┃ 2023
+┃┗┛┃┏┓┗┓┃┃┗━┛┃┗━━┓┃┃┗━┛┃ V 1.0.0
+┗━━┛┃┗━┛┃┗━━━┛   ┃┃┗━━━┛ 
+    ┗━━━┛        ┗┛
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>d3040</title>
+        <link rel="stylesheet" href="css/fonts.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
-        <link rel="ja" href="/css/master.css">
     </head>
-    <body>
+    <body>      
         <!-- navigation bar -->
         <nav>
-
+            <a class="logo" href="#">d3040</a>
+            <button id="nav-toggle"></button>
+            <a id="nav-link" href="#">Tributo a Mozilla</a>
+            <ul>
+                <li class="section">
+                    <a href="#">
+                        <h2 class="title">About</h2>
+                    </a>
+                    <ul>
+                        <div class="subsection-container">
+                            <li class="subsection">
+                                <a href="#">
+                                    <img class="icon" src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg" alt="#">
+                                    <h4 class="subtitle">Encabezado</h4>
+                                    <p class="description">Ideas al aire, discusiones académicas o actualizaciones.</p>
+                                </a>
+                            </li>
+                            <li class="subsection">
+                                <a href="#">
+                                    <img class="icon" src="#" alt="#">
+                                    <h4 class="subtitle">¿Porqué d3040?</h4>
+                                    <p class="description">Descripción del número, base filosófica detrás del alias.</p>
+                                </a>
+                            </li>
+                            <li class="subsection">
+                                <a href="#">
+                                    <img class="icon" src="#" alt="#">
+                                    <h4 class="subtitle">Mis principios</h4>
+                                    <p class="description">Descripción ideológica de las reglas fundamentales del carácter propio.</p>
+                                </a>
+                            </li>
+                            <li class="subsection">
+                                <a href="#">
+                                    <img class="icon" src="#" alt="#">
+                                    <h4 class="subtitle">Conectar</h4>
+                                    <p class="description">¿Tienes alguna idea o comentario que me quieras compartir?, este es el lugar y momento indicados.</p>
+                                </a>
+                            </li>
+                            <li class="wrap-section-link">
+                                <a href="#">
+                                    Ver trayectoria profesional
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="section">
+                    <a href="#">
+                        <h2 class="title">The Beaver's Hut</h2>
+                    </a>
+                    <ul>
+                        <div class="subsection-container">
+                            <li class="subsection" aria-expanded="false">
+                                <a href="#">
+                                    <img class="icon" src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg" alt="#">
+                                    <h4 class="subtitle">HTML, CSS y JS</h4>
+                                    <p class="description">Notas sobre web stack dev...</p>
+                                </a>
+                            </li>
+                             <li class="subsection" aria-expanded="false">
+                                <a href="#">
+                                    <img src="#" alt="#" class="icon">
+                                    <h4 class="subtitle">Python</h4>
+                                    <p class="description">Notas sobre programación utilizando Python...</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="section">
+                    <a href="#">
+                        <h2 class="title">Proyectos</h2>
+                    </a>
+                    <ul>
+                        <div class="subsection-container">
+                            <li class="subsection" aria-expanded="false">
+                                <a href="#">
+                                    <img class="icon" src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg" alt="#">
+                                    <h4 class="subtitle">Percepción urbana</h4>
+                                    <p class="description">Basádo en la tesis de maestría, un estudio para clasificar espacios urbanos de acuerdo a lo que la gente observa.</p>
+                                </a>
+                            </li>
+                             <li class="subsection" aria-expanded="false">
+                                <a href="#">
+                                    <img src="#" alt="#" class="icon">
+                                    <h4 class="subtitle">Composta urbana</h4>
+                                    <p class="description">Documentación del progreso de una composta urbana, y análisis de datos.</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+                <li class="section">
+                    <a href="#">
+                        <h2 class="title">Lab</h2>
+                    </a>
+                    <ul>
+                        <div class="subsection-container">
+                            <li class="subsection" aria-expanded="false">
+                                <a href="#">
+                                    <img class="icon" src="https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo.eb1324e44442.svg" alt="#">
+                                    <h4 class="subtitle">Experimental Layout</h4>
+                                    <p class="description">El laboratorio experimental de diseño web de d3040.</p>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </li>
+            </ul>
         </nav>
        <!-- updates & news -->
         <header>
-            <h1>d3040</h1>
-            <p></p>
+            <ul>
+                <li class="slide active">
+                    <h1 class="short-description">¡Hola! Soy Daniel Clavijo,</h1>
+                    <h2 class="title">desarrollador web.</h2>
+                    <p class="abstract">
+                        Me apasiona el desarrollo web, la programación y el urbanismo. Veo el aprendizaje como una actividad continua, me gusta organizar procesos, generar ideas y unir personas. Creo en la WEB como el espacio donde se borran fronteras y se mezclan culturas, y como medio para alcanzar la libertad de expresión. Es la forma en que nuestra humanidad trascenderá a través del tiempo.
+                    </p>
+                    <p class="abstract">
+                        El diseño que verás en mi sitio está basado en páginas de compañías y/o personas que admiro. Mozilla es una organización independiente sin fines de lucro que busca asegurar el internet como un recurso público, abierto y accesible para todos. Creen en que este acto de colaboración a través de una plataforma abierta es esencial para el crecimiento individual y el futuro colectivo. Esta página es un tributo al <a href="https://www.mozilla.org/en-US/about/manifesto/">manifiesto de Mozilla</a>.
+                    </p>
+                    <button class="previous-slide">&lt;</button>
+                    <h4 class="header-counter">
+                        <!-- i / n -->
+                    </h4>
+                    <button class="next-slide">&gt;</button>
+                </li>
+                <!-- layout
+                <li class="slide">
+                    <h1 class="short-description">La magia de la basura</h3>
+                    <h2 class="title">¿Qué le pasa a la basura cuando se la llevan?</h2>
+                    <p class="abstract">Abstract</p>
+                    <button class="previous-slide">&lt;</button>
+                    <h4 class="header-counter">
+                        <!- - i / n - ->
+                    </h4>
+                    <button class="next-slide">&gt;</button>
+                </li>
+                /layout -->
+            </ul>
         </header>
-        <!-- about -->
+        <!-- main content -->
         <main>
-
+            <section id="projects">
+                <ul>
+                    <li class="item">
+                        Construyendo <a href="https://github.com/d3040/website">d3040</a>.
+                    </li>
+                    <li class="item">
+                        Un estudio sobre la <a href="https://repositorio.tec.mx/handle/11285/633082">percepción urbana</a>.
+                    </li>
+                    <li class="item">
+                        <a href="https://github.com/d3040/the_beavers_hut">The Beaver's Hut</a>: documentación a través de Sphinx.
+                    </li>
+                    <li class="item">
+                        Laboratorio experimental de <a href="#">diseño web</a> inspirado en <a href="https://labs.jensimmons.com/">Jen Simmons</a>.
+                    </li>
+                </ul>
+            </section>
+            <section id="blue" class="wide">
+                <h2 class="title">¿Por qué d3040?</h2>
+                <p class="description">
+                    Tres mil cuarenta es un número que significa sobrepasar las expectativas. Es una forma implícita de denotar cualquier cuestión extraordinaria.
+                </p>
+                <a class="btn" href="#get-in-contact">Pongámonos en contacto</a>
+            </section>
+            <section id="about">
+                <h2 class="title">Mis principios</h2>
+                <ul>
+                    <li class="principle">
+                        <h3 class="title">Principio 1</h3>
+                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, asperiores odio ab culpa earum facilis quam, cumque laborum aliquam saepe deleniti quaerat aut quibusdam doloremque unde tenetur quo, vero. Quaerat.</p>
+                    </li>
+                    <li class="principle">
+                        <h3 class="title">Principio 2</h3>
+                        <p class="description">The internet is a global public resource that must remain open and accessible.</p>
+                    </li>
+                    <li class="principle">
+                        <h3 class="title">Principio 3</h3>
+                        <p class="description">The internet must enrich the lives of individual human beings.</p>
+                    </li>
+                    <li class="principle">
+                        <h3 class="title">Principio 4</h3>
+                        <p class="description">Individuals’ security and privacy on the internet are fundamental and must not be treated as optional.</p>
+                    </li>
+                </ul>
+                <a class="btn" href="https://d3040.github.io/resume/">Trayectoria profesional</a>
+                <a class="resume" href="#header" target="_blank">Regresar al inicio</a>
+            </section>
+            <section id="get-in-contact">
+                <img src="https://www.mozilla.org/media/img/home/2018/newsletter-graphic.3debb24fbacc.png" alt="">
+                <form method="post" action="https://d3040.com/blue.php">
+                    <h3 class="title">Pongámonos en contacto</h3>
+                    <p>Si te pareció interesante esta página, tienes algún proyecto en mente o simplemente quieres platicar, este es el lugar y momento indicados.</p>
+                    <fieldset>
+                        <label for="name">
+                            Nombre:
+                            <input type="text" id="name" name="name" placeholder="Quatronostro Menéndez" required />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="email">
+                            Correo:
+                            <input type="email" id="email" name="email" placeholder="tunombre@ejemplo.com" required />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>¿Cómo llegaste a esta página?</legend>
+                        <label for="resume">
+                            CV o Resume
+                            <input type="radio" id="resume" name="trace-back" value="resume" />
+                        </label>
+                        <label for="linkedin">
+                            Linkedin
+                            <input type="radio" id="linkedin" name="trace-back" value="linkedin" />
+                        </label>
+                        <label for="friend">
+                            Por un amigo
+                            <input type="radio" id="friend" name="trace-back" value="friend" />
+                        </label>
+                        <label for="other">
+                            Otro
+                            <input type="radio" id="other" name="trace-back" value="other" checked />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label for="message">
+                            <textarea id="message" placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </label>
+                    </fieldset>
+                    <input type="submit" value="Enviar" class="btn">
+                </form>
+            </section>
         </main>
         <!-- site map -->
-        <footer>
-          <a href="https://www.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_11712554.htm#&position=18&from_view=popular">Image by benzoix</a> on Freepik
+        <footer class="narrow">
+            <section id="brand">
+                <a class="logo negative" href="#">d3040</a>
+            </section>
+            <section id="site-map">
+                <ul>
+                    <li class="topic">
+                        <h5 class="title">
+                            <button class="toggle">About</button>
+                        </h5>
+                        <ul>
+                            <li class="subject">
+                                <a href="">Encabezado</a>
+                            </li>
+                            <li class="subject">
+                                <a href="">Mis principios</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="topic">
+                        <h5 class="title">
+                            <button class="toggle">Poryectos</button>
+                        </h5>
+                        <ul>
+                            <li class="subject">
+                                <a href="">Percepción urbana</a>
+                            </li>
+                            <li class="subject">
+                                <a href="">Desarrollo web</a>
+                            </li>
+                            <li class="subject">
+                                <a href="">Minería de datos</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="topic">
+                        <h5 class="title">
+                            <button class="toggle">The Beaver's Hut</button>
+                        </h5>
+                        <ul>
+                            <li class="subject">
+                                <a href="">Python</a>
+                            </li>
+                            <li class="subject">
+                                <a href="">Desarrollo web</a>
+                            </li>
+                            <li class="subject">
+                                <a href="">Urbanismo</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="topic">
+                        <h5 class="title">
+                            <button class="toggle">Trayectoria Profesional</button>
+                        </h5>
+                        <ul>
+                            <li class="subject">
+                                <a href="">Mi Resume</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li id="social-media">
+                        <ul class="account">
+                            <h5 class="title">Follow @d3040</h5>
+                            <li class="platform">
+                                <a href="#">
+                                    <img class='icon' src="img/logos/spotify.svg" alt="spotify-icon">
+                                </a>
+                            </li>
+                            <li class="platform">
+                                <a href="#">
+                                    <img class='icon' src="img/logos/linkedin.svg" alt="linkedin-icon">
+                                </a>
+                            </li>
+                            <li class="platform">
+                                <a href="#">
+                                    <img class='icon' src="img/logos/free-code-camp.svg" alt="free-code-camp-icon">
+                                </a>
+                            </li>
+                            <li class="platform">
+                                <a href="#">
+                                    <img class='icon' src="img/logos/github.svg" alt="github-icon">
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="legal"> 
+                <form action="https://d3040.com/es-MX/index.html" method="post">
+                    <fieldset>
+                        <label for="language">
+                            Language
+                            <select name="language" id="language">
+                               <option value="es-MX" lang="es">Español (México)</option> 
+                            </select>
+                        </label>
+                    </fieldset>
+                </form>
+                <ul>
+                    <li class="term"><a href="">Web Privacy Notice</a></li>
+                    <li class="term"><a href="">Cookies</a></li>
+                    <li class="term"><a href="">Legal</a></li>
+                    <li class="term"><a href="">Community Participation Guidelines</a></li>
+                    <li class="term"><a href="">About this site</a></li>
+                </ul>
+                <p id="license">
+                    Visit Mozilla Corporation’s not-for-profit parent, the <a href="https://foundation.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer">Mozilla Foundation</a>.
+                    <br>
+                    Portions of this content are ©1998–2023 by individual mozilla.org contributors. Content available under a <a href="https://www.mozilla.org/en-US/foundation/licensing/website-content/">Creative Commons license</a>.
+                </p>
+            </section>
         </footer>
-        <script src="js/counter.js"></script>
+        <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "Zilla Slab Highlight Bold";
+  src: url("../fonts/zilla-slab/ZillaSlabHighlight-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Zilla Slab Highlight Regular";
+  src: url("../fonts/zilla-slab/ZillaSlabHighlight-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Zilla Slab";
+  src: url("../fonts/zilla-slab/ZillaSlab-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Zilla Slab Bold";
+  src: url("../fonts/zilla-slab/ZillaSlab-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Inter Light";
+  src: url("../fonts/inter/Inter-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Inter Regular";
+  src: url("../fonts/inter/Inter-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url("../fonts/inter/Inter-Bold.otf") format("opentype");
+}
+
+
+
