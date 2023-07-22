@@ -7,19 +7,6 @@
 ┗━━┛┃┗━┛┃┗━━━┛   ┃┃┗━━━┛ 
     ┗━━━┛        ┗┛
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/**
- * To be done:
- * [] nav custom links
- * [] footer custom links
- * [] Envío de formulario de mensaje
- * [] Cambio de idioma en el sitio con formulario
- * [] Get mozilla button animation 
- *      animation: bounce 2s .5s;
- *      transform-origin: center bottom;
- * [] Slide animation
- * [] review Grid layout for navbar.
-**/
-
 /* global */
 body {
   display: grid;
