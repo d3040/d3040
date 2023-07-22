@@ -47,13 +47,6 @@ My home page is a tribute to [Mozilla](https://www.mozilla.org/) and [Mozilla Ma
 
 Friday, 21st July 2023. There's work to be done:
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
 | Level of importance | Description                             |Start |Finish|
 | ------------------- | --------------------------------------- | ---- | ---- |
 |0 										|	Navbar's sections icons									|			 |			|
