@@ -47,14 +47,22 @@ My home page is a tribute to [Mozilla](https://www.mozilla.org/) and [Mozilla Ma
 
 Friday, 21st July 2023. There's work to be done:
 
-* Navbar´s sections icons
-* Image in get-in-contact section, next to form
-* Enable contact form
-* Contract a hosting plan
-* Update DNS
-* Enable language form
-* Site's elements animation (e.g. mozilla button animation).
-* Review Grid layout for navbar.
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+| Level of importance | Description                             |Start |Finish|
+|0 										|	Navbar's sections icons									|			 |			|
+|0 										|	Image in get-in-contact sections				|			 |			|
+|1 										|	Enable contact form 										|			 |			|
+|2 										|	Contract a hosting plan									|			 |			|
+|3 										|	Udapte DNS 															|			 |			|
+|0 										|	Enable language form 										|			 |			|
+|0 										|	Site's animation												|			 |			|
+|0 										|	Review Grid layout for navbar						|			 |			|
 
 ## Easter eggs:
 
