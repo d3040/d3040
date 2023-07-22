@@ -55,6 +55,7 @@ Friday, 21st July 2023. There's work to be done:
 
 
 | Level of importance | Description                             |Start |Finish|
+| ------------------- | --------------------------------------- | ---- | ---- |
 |0 										|	Navbar's sections icons									|			 |			|
 |0 										|	Image in get-in-contact sections				|			 |			|
 |1 										|	Enable contact form 										|			 |			|
